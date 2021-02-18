@@ -1,0 +1,75 @@
+
+.title-block {
+	font-weight: bold;
+	letter-spacing: 0.2em;
+}
+.title-block:before {
+    content: "—";
+	color: #b68e53;
+	padding-right: 20px;
+}
+.title-block:after {
+    content: "—";
+	color: #b68e53;
+	padding-left: 20px;
+}
+.network-section {
+	display: grid;
+	row-gap: 25px;
+	justify-items: center;
+}
+
+.networks-list {
+	display: flex;
+}
+.networks-list>li {
+	display: flex;
+	align-items: center;
+}
+.networks-list>li:after {
+    content: "•";
+	color: black;
+	padding: 0 20px;
+}
+.networks-list>li:last-child:after {
+    content: "";
+	padding: 0;
+}
+.networks-list>li>a {
+	display:block;
+	width: 25px;
+	height: 25px;
+    background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y: center;
+}
+.twitter {
+	background-image: url(twitter.png);
+}
+.linkdin {
+	background-image: url(linkedin.png);
+}
+.instagram {
+	background-image: url(instagram.png);
+}
+.facebook {
+	background-image: url(facebook.png);
+}
+.dribbble {
+	background-image: url(dribbble.png);
+}
+.networks-list .twitter:hover {
+	background-image: url(twitter_hov_g.png.png);
+}
+.networks-list .linkdin:hover {
+	background-image: url(linkedin_hov_g.png.png);
+}
+.networks-list .instagram:hover {
+	background-image: url(instagram_hov_g.png.png);
+}
+.networks-list .facebook:hover {
+	background-image: url(facebook_hov_g.png);
+}
+.networks-list .dribbble:hover {
+	background-image: url(dribbble_hov_g.png);
+}

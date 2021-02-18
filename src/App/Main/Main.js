@@ -2,6 +2,7 @@ import React from 'react'
 
 import SliderBlock from './SliderBlock/SliderBlock'
 import ContentBlock from './ContentBlock/ContentBlock'
+import InstagramBlock from './InstagramBlock/InstagramBlock'
 
 
 
@@ -10,6 +11,7 @@ const Main = () => {
         <main className="main">
             <SliderBlock/>
             <ContentBlock/>
+            <InstagramBlock/>
         </main>
     )
 }

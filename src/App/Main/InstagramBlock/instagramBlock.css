@@ -1,0 +1,29 @@
+.inastagram-block {
+	display: grid;
+	row-gap: 30px;
+	justify-items: center;
+}
+.inst-list {
+	justify-self: center;
+}
+.inst-title {
+	font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
+.inst-list-photo {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.inst-list-photo>li>a {
+	display: block;
+}
+.inst-list-photo>li>a>img {
+	-webkit-transition: .3s ease-in-out;
+	transition: .5s ease-in-out;
+}
+.inst-list-photo>li>a:hover img {
+	transform: scale(1.2);
+}

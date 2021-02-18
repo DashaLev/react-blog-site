@@ -1,0 +1,7 @@
+.posts-sidebar {
+	grid-area: posts-sidebar;
+	display: grid;
+    justify-items: center;
+	row-gap: 50px;
+	height: max-content;
+}

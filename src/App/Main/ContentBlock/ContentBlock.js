@@ -2,9 +2,7 @@ import React from 'react'
 
 import PostsDirections from './PostsDirections/PostsDirections'
 import PostsList from './PostsList/PostsList'
-
-
-// import PostsSidebar from './PostsSidebar/PostsSidebar'
+import PostsSidebar from './PostsSidebar/PostsSidebar'
 
 
 
@@ -15,7 +13,7 @@ const ContentBlock = () => {
                 <div className="main-row">
                     <PostsDirections/>
                     <PostsList/>
-                    {/* <PostsSidebar/> */}
+                    <PostsSidebar/>
                 </div>
             </div>
         </div>

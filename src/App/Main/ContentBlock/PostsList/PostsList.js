@@ -30,6 +30,9 @@ const PostsList = () => {
                 ))
 
                 }
+            <div className="btn-more-posts">
+                <button>MORE POSTS</button>
+            </div>
         </div>
     )
 }
