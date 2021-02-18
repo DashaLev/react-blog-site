@@ -1,0 +1,23 @@
+.menu {
+	grid-area: menu;
+	align-self: center;
+	display: flex;
+	justify-content: space-evenly;
+}
+.menu>li>a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	font-weight: bold;	
+}
+.menu>li:hover a {
+	color: #b68e53;	
+}
+
+@media(max-width: 767px) {
+	.menu>li>a {
+		font-size: 14px;
+	}
+	
+
+}

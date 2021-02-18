@@ -1,0 +1,74 @@
+.post-direction-item {
+	position: relative;
+}
+.post-direction-item>img {
+	width: 100%;
+}
+.post-direction-box {
+	position: absolute;
+	bottom: 1px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width:calc(100% - 60px);
+	height: 80px;
+	border: 1px solid transparent;
+}
+.post-direction-bg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	width:calc(100% - 60px);
+	height: 50px;
+	background-color: white;
+}
+.post-direction-item:hover {
+	box-shadow:	0 0 0 1px rgb(194, 192, 184) inset,
+				0 5px 0 -4px rgb(255, 255, 255),
+				0 5px 0 -3px rgb(194, 192, 184),
+				0 11px 0 -8px rgb(255, 255, 255),
+				0 11px 0 -7px rgb(194, 192, 184),
+				0 17px 0 -12px rgb(255, 255, 255),
+				0 17px 0 -11px rgb(194, 192, 184);
+	cursor: pointer;
+}
+.post-direction-item:hover .post-direction-box {
+	border: 1px solid white;
+}
+.post-direction-title {
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.2em;
+	text-align: center;
+	line-height: 50px;
+}
+@media(max-width: 767px) {
+	
+	.post-direction-item {
+		max-width: 320px;
+	}
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+	.posts-derictions>.post-direction-item:last-child {
+		grid-area: post-direction-item-last;
+		max-width: 365px;
+		}
+	.posts-derictions {
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas: 
+			"posts-derictions posts-derictions"
+			"post-direction-item-last post-direction-item-last"
+		;
+	}
+} 
+
+@media(min-width: 992px) {
+	.posts-derictions {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}

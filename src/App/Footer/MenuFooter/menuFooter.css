@@ -1,0 +1,19 @@
+
+.menu-footer {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+.menu-footer>li {
+	margin:10px 15px;
+}
+.menu-footer>li>a {
+	display: block;
+	text-decoration: none;
+	color: #666666;
+	font-weight: bold;
+	font-size: 15px;
+}
+.menu-footer>li:hover a {
+	color:#b08247;
+}

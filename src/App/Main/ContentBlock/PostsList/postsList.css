@@ -1,0 +1,6 @@
+.posts-list {
+	grid-area: posts-list;
+	display: grid;
+	row-gap: 70px;
+	justify-items: center;
+}

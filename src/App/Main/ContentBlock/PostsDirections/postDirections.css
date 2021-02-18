@@ -1,0 +1,7 @@
+.posts-derictions {
+	grid-area: posts-derictions;
+	display: grid;
+	grid-gap:20px;
+	justify-items: center;
+}
+

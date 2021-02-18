@@ -1,0 +1,12 @@
+.logo {
+	grid-area: logo;
+	justify-self: center;
+	margin-top: 10px;
+}
+
+@media(max-width: 767px) {
+	.logo>img {
+		max-width: 100%;
+	}
+
+}
