@@ -43,7 +43,7 @@
 		font-size: 16px;
 	}
 	.search-request:focus {
-		flex: 0 0 90%;
+		flex: 0 0 80%;
 		outline: 1px solid #b68e53;
 		transition: 1s;
 	}
