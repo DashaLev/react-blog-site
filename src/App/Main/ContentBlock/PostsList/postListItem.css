@@ -4,7 +4,7 @@
 	padding: 2px 2px 0 2px;
 }
 .post-item:hover {
-	box-shadow: 7px -1px 17px 11px rgba(0, 0, 0, 0.5);
+	box-shadow: 7px -1px 17px 11px rgba(0, 0, 0, 0.2);
 }
 .posts-list .post-item:nth-child(even) {
 	direction: rtl;
