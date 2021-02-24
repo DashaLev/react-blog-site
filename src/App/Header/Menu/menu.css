@@ -4,11 +4,16 @@
 	display: flex;
 	justify-content: space-evenly;
 }
+.menu:hover li>a {
+	color:grey;
+}
 .menu>li>a {
 	display: block;
 	text-decoration: none;
-	color: black;
-	font-weight: bold;	
+	color: #b68e53;
+	font-weight: bold;
+	height: 35px;
+    line-height: 35px;
 }
 .menu>li:hover a {
 	color: #b68e53;	

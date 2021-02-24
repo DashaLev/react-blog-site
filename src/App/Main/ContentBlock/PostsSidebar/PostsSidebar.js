@@ -9,7 +9,7 @@ import "./postsSidebar.css"
 
 const PostsSidebar = () => {
     return (
-        <div class="posts-sidebar">
+        <div className="posts-sidebar">
             <AboutSection/> 
             <NetworkSection/>
             <CategoriesSection/>

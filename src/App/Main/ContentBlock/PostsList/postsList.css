@@ -4,3 +4,18 @@
 	row-gap: 70px;
 	justify-items: center;
 }
+.btn-more-posts {
+	justify-self: center;
+}
+.btn-more-posts button {
+	width: 170px;
+	height: 40px;
+	background-color: transparent;
+	border: 2px solid #b68e53;
+	color: #929292;
+	letter-spacing: 0.2em;
+}
+.btn-more-posts button:hover {
+	background-color:#b68e53;
+	color: white;
+}

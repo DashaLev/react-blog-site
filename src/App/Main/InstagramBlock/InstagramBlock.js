@@ -4,9 +4,9 @@ import "./instagramBlock.css"
 
 const InstagramBlock = () => {
     return (           
-        <div class="inastagram-block">
-            <div class="inst-title">INSTAGRAM</div>
-            <ul class="inst-list-photo">
+        <div className="inastagram-block">
+            <div className="inst-title">INSTAGRAM</div>
+            <ul className="inst-list-photo">
                 <li>
                     <a href="">
                         <img src="images/ins_1.png" alt=""/>

@@ -10,10 +10,6 @@
 	direction: rtl;
 }
 
-/* .post-item.reverse {
-	direction: rtl;
-} */
-
 .post-photo>img {
 	width: 100%;
 }
@@ -47,9 +43,7 @@
 .posts-list .post-item:nth-child(even) .post-category {
 	order: 1;
 }
-/* .post-category.reverse {
-	order: 1;
-} */
+
 .post-author {
 	font-style: italic;
 	color: #cccccc;
@@ -85,21 +79,7 @@
 	justify-self: left;
 	padding-left: 10px;
 }
-.btn-more-posts {
-	justify-self: center;
-}
-.btn-more-posts button {
-	width: 170px;
-	height: 40px;
-	background-color: transparent;
-	border: 2px solid #b68e53;
-	color: #929292;
-	letter-spacing: 0.2em;
-}
-.btn-more-posts button:hover {
-	background-color:#b68e53;
-	color: white;
-}
+
 
 @media(max-width: 767px) {
 	.post-item {

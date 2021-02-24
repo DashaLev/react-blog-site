@@ -4,7 +4,6 @@ import React, {Component} from 'react'
 import './postListItem.css'
 import PropTypes from 'prop-types'
 
-
 class PostListItem extends Component {
     render() {
         
@@ -36,7 +35,7 @@ class PostListItem extends Component {
                 </div>
             </div>
         )
-    }
+    } 
 }
 
 
