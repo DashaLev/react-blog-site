@@ -1,8 +1,10 @@
 .post-direction-item {
 	position: relative;
+	padding: 2px 2px 0 2px;
 }
 .post-direction-item>img {
 	width: 100%;
+	filter: grayscale(100%);
 }
 .post-direction-box {
 	position: absolute;
@@ -25,15 +27,16 @@
 	background-color: white;
 }
 .post-direction-item:hover {
-	box-shadow:	0 0 0 1px rgb(194, 192, 184) inset,
-				0 5px 0 -4px rgb(255, 255, 255),
-				0 5px 0 -3px rgb(194, 192, 184),
-				0 11px 0 -8px rgb(255, 255, 255),
-				0 11px 0 -7px rgb(194, 192, 184),
-				0 17px 0 -12px rgb(255, 255, 255),
-				0 17px 0 -11px rgb(194, 192, 184),
-				7px -1px 17px 11px rgb(0, 0, 0, 0.2);
 	cursor: pointer;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 1),
+	-23px 0 20px -23px rgba(0, 0, 0, .8),
+	23px 0 20px -23px rgba(0, 0, 0, .8),
+	0 0 40px rgba(0, 0, 0, .1) inset;
+
+}
+.post-direction-item:hover img {
+	filter: none;
+	transition: .40s cubic-bezier(0.4, 0, 1, 1);
 }
 .post-direction-item:hover .post-direction-box {
 	border: 1px solid white;

@@ -3,8 +3,14 @@
 	grid-gap: 15px;
 	padding: 2px 2px 0 2px;
 }
+
 .post-item:hover {
-	box-shadow: 7px -1px 17px 11px rgba(0, 0, 0, 0.2);
+	box-shadow: -20px 20px 0 -17px #eee,
+	20px -20px 0 -17px #eee,
+	20px 20px 0 -20px #929292,
+	0 0 0 2px #929292;
+	transform: scale(1.02);
+	transition: .25s cubic-bezier(0.47,0,0.75,0.72);
 }
 .posts-list .post-item:nth-child(even) {
 	direction: rtl;
