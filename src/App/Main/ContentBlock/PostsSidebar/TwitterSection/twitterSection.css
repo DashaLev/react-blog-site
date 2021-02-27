@@ -53,9 +53,7 @@
 .carousel .slide {
 	background-color: white;
 }
-.carousel .slider-wrapper {
-	height: 150px;
-}
+
 .carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
     opacity: 1;
     filter: alpha(opacity=100);
