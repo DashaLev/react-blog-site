@@ -17,37 +17,49 @@
 	row-gap: 25px;
 	justify-items: center;
 }
+.twitter-comment {
+	position: relative;
+	padding:20px 0;
+}
 .twitter-comment-text {
 	color:#6f6f6f;
-	font-size: 17px;
 	line-height: 1.4em;
-	width: calc(100% - 70px);
-	text-align: center;
-	quotes: '“' '”';
-	position: relative;
 }
-.twitter-comment-text span {
-	font-size: 12px;
-	color: black;
-	font-weight: bold;
-}
-.twitter-comment-text::before {
+.twitter-comment::before {
 	color: #b08247;
 	content: open-quote;
 	line-height: 0;
 	font-size: 3em;
 	font-family: 'Times New Roman', sans-serif;
 	position: absolute;
-    top: 15px;
-    left: -25px;
+	left: 0;
 }
-.twitter-comment-text::after {
+.twitter-comment::after {
 	color: #b08247;
 	content: close-quote;
     line-height: 0;
     font-size: 3em;
 	font-family: 'Times New Roman', sans-serif;
 	position: absolute;
-    bottom: 15px;
-    right: -25px;
+	right: 0;
+}
+.twitter-comment-text-time {
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+	padding: 10px 0;
+}
+
+.carousel .slide {
+	background-color: white;
+}
+.carousel .slider-wrapper {
+	height: 150px;
+}
+.carousel .control-dots .dot.selected, .carousel .control-dots .dot:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.carousel .control-dots .dot {
+	background-color: #b68e53;
 }

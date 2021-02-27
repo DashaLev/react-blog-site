@@ -1,16 +1,36 @@
-import React from 'react'
+import React, { Component } from 'react';
+
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
+
+import twitterPosts from './twitterPosts'
 
 import  './twitterSection.css'
 
+class TwitterSection extends Component {
+    render() {
 
-const TwitterSection = () => {
-    return (
-        <div className="twitter-section">
-            <div className="title-block">TWITTER</div>
-            <div className="twitter-comment-text">Wow J.Stoyn! I love reading anything you write. You have such a talent for words<br/><span>12 min ago</span>
+        return (
+            <div className="twitter-section">
+                <div className="title-block">TWITTER</div>
+                <Carousel autoPlay={true} interval={7000} infiniteLoop={true}>
+                    { 
+                        twitterPosts.map(({
+                            id,
+                            text,
+                            posttime,
+                        }) => ( 
+                            <div key={id} className="twitter-comment">
+                                <div className="twitter-comment-text">{text}</div>
+                                <div className="twitter-comment-text-time">{posttime}</div>
+                            </div> 
+                        ) )
+                    } 
+                </Carousel>
             </div>
-        </div>
-    )
+        )
+    }
 }
+
 
 export default TwitterSection
