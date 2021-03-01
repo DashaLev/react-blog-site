@@ -1,10 +1,15 @@
+.carousel .slide .legend {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
 .carousel .slide .legend .slider-category {
     text-transform: uppercase;
 	font-size: 18px;
 	font-weight: bold;
 	letter-spacing: 0.2em;
     color: #b68e53;
-    padding: 15px 0;
 }
 .carousel .slide .legend .slider-category:before {
     content: "—";
@@ -18,7 +23,6 @@
 }
 .carousel .slide .legend .slider-title {
     font-size: 20px;
-    padding: 15px 0;
 }
 .carousel .slide .legend .slider-link {
     display: inline-block;
@@ -31,9 +35,13 @@
 	letter-spacing: 0.2em;
 	border-radius: 3px;
     text-align: center;
-    margin: 15px 0;
 }
 .carousel .slide .legend .slider-link:hover {
     background-color:#b68e53;
 	color: white;
+}
+@media (max-width: 767px) {
+    .slider-block {
+        display: none;
+    }
 }

@@ -52,7 +52,7 @@
 @media(max-width: 767px) {
 	
 	.post-direction-item {
-		max-width: 315px;
+		max-width: 300px;
 	}
 }
 
@@ -60,14 +60,16 @@
 @media (min-width:768px) and (max-width:991px) {
 	.posts-derictions>.post-direction-item:last-child {
 		grid-area: post-direction-item-last;
-		max-width: 365px;
-		}
+	}
 	.posts-derictions {
 		grid-template-columns: 1fr 1fr;
 		grid-template-areas: 
 			"posts-derictions posts-derictions"
 			"post-direction-item-last post-direction-item-last"
 		;
+	}
+	.post-direction-item {
+		max-width: 350px;
 	}
 } 
 

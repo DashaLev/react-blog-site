@@ -4,8 +4,25 @@
 	display: flex;
 	justify-content: space-evenly;
 }
+.menu>li {
+	position: relative;
+	padding-right: 15px;
+}
+.arrow {
+	margin-right: 5px;
+	background-image:url(gold_arrow.png);
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-position-x: 100%;
+}
 .menu:hover li>a {
 	color:grey;
+}
+.menu:hover .arrow {
+	background-image:url(grey_arrow.png);
+}
+.menu>.arrow:hover  {
+	background-image:url(gold_arrow_up.png);
 }
 .menu>li>a {
 	display: block;
@@ -17,6 +34,29 @@
 }
 .menu>li:hover a {
 	color: #b68e53;	
+}
+.menu>li:hover>.submenu {
+    display: block;
+}
+.submenu {
+    display: none;
+    position: absolute;
+  	left: -20px;
+    padding: 0 10px;
+    background-color: white;
+    z-index: 20;
+  	text-align: center;
+}
+.submenu>li {
+  	margin: 15px 0;
+}
+.submenu>li>a {
+  	display: block;
+    text-decoration: none;
+    color: black;
+}
+.submenu>li:hover a {
+    color:grey;
 }
 
 @media(max-width: 767px) {

@@ -11,27 +11,28 @@ class SliderBlock extends Component {
     render() {
 
         return (
-            <Carousel autoPlay={true} interval={5000} infiniteLoop={true}>
-
-                { 
-                    sliderPosts.map(({
-                        id,
-                        image,
-                        category,
-                        title,
-                        link,
-                    }) => ( 
-                        <div key={id} > 
-                            <img src={image}/> 
-                            <div className="legend">
-                                <div className="slider-category">{category}</div>
-                                <div className="slider-title">{title}</div>
-                                <a href={link} className="slider-link">READ MORE</a>
+            <div className="slider-block">
+                <Carousel autoPlay={true} interval={5000} infiniteLoop={true}>
+                    { 
+                        sliderPosts.map(({
+                            id,
+                            image,
+                            category,
+                            title,
+                            link,
+                        }) => ( 
+                            <div key={id} > 
+                                <img src={image}/> 
+                                <div className="legend">
+                                    <div className="slider-category">{category}</div>
+                                    <div className="slider-title">{title}</div>
+                                    <a href={link} className="slider-link">READ MORE</a>
+                                </div>
                             </div>
-                        </div> 
-                    ) )
-                } 
-            </Carousel>
+                        ) )
+                    } 
+                </Carousel>
+            </div>
         );
     }
 }

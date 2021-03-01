@@ -61,3 +61,9 @@
 .carousel .control-dots .dot {
 	background-color: #b68e53;
 }
+
+@media (max-width: 767px) {
+	.carousel-root {
+		width:315px;
+	}
+}

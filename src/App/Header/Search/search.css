@@ -8,6 +8,7 @@
 	flex: 0 0 90%;
 	border-color:transparent;
 	font-size: 16px;
+	border-radius: 3px;
 }
 .btn-search {
 	flex: 0 0 10%;
