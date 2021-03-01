@@ -58,11 +58,86 @@
 .submenu>li:hover a {
     color:grey;
 }
+.close-mob-menu {
+	display: none;
+}
 
-@media(max-width: 767px) {
-	.menu>li>a {
-		font-size: 14px;
+@media (max-width: 767px) {
+	.navigation {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		width: 280px;
+		max-width: 280px;
+		transition: all 550ms ease-in-out;
+		transform: translateX(150%);
 	}
-	
-
+    .hiden-menu {
+		opacity: 0;
+		visibility: hidden;
+	}
+	.navigation.active-menu {
+		opacity: 1;
+		visibility: visible;
+		transform: translateX(0);
+		top: 65px;
+		background-color: white;
+		flex-direction: column;
+		align-items: center;
+		z-index: 25;
+	}
+	.nav-mobile-menu {
+		width: 30px;
+		height: 30px;
+		position: relative;
+	}
+	.nav-mobile-menu span {
+		transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+		width: 30px;
+		height: 3px;
+		margin-bottom: 7px;
+		background-color: black;
+		position: absolute;
+		left: 0;
+		right: 0;
+	}
+	.nav-mobile-menu span:nth-of-type(1) {
+		top: 6px;
+	}
+	.nav-mobile-menu span:nth-of-type(2) {
+		top: 13px;
+	}
+	.nav-mobile-menu span:nth-of-type(3) {
+		bottom: 0px;
+	}
+	.nav-mobile-menu:hover span:nth-of-type(1) {
+		width: 15px;
+		background-color: #b68e53;
+		left:15px;
+	}
+	.nav-mobile-menu:hover span:nth-of-type(2) {
+		width: 25px;
+		background-color: #b68e53;
+	}
+	.nav-mobile-menu:hover span:nth-of-type(3) {
+		width: 15px;
+		background-color: #b68e53;
+	}
+	.close-mob-menu {
+		display: block;
+		width: 30px;
+		height: 30px;
+		border: 2px solid #b68e53;
+		border-radius: 3px;
+		background-color:#b68e53;
+		color: white;
+		font-size: 21px;
+		align-self: flex-end;
+		margin-right: 30px;
+	}
+	.close-mob-menu:hover {
+		color:#929292;
+		background-color: transparent;
+	}
 }

@@ -17,16 +17,13 @@ body {
 .header-row {
 	display: grid;
 	row-gap: 40px;
-	grid-auto-rows: min-content;
 	grid-template-areas:
-		"logo"
-		"menu"
-		"search-field"
+		"logo logo"
+		"search-field menu"
 	;
 }
 .main-row {
 	display: grid;
-	grid-auto-rows: min-content;
 	grid-template-columns:1fr;
 	grid-gap: 15px;
 	grid-template-areas: 
@@ -44,6 +41,11 @@ body {
 @media(max-width: 767px) {
 	.main-row {
 		row-gap: 40px;
+	}
+	.header-row {
+		justify-items: center;
+		grid-template-columns: 80% 20%;
+		align-items: center;
 	}
 }
 

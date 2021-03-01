@@ -24,13 +24,20 @@
 	background-position-y: center;
 	padding: 0;
 }
+
 @media(max-width: 767px) {
 	.search-field {
-		padding: 0 5px;
+		width: 100%;
+		padding-left: 10px;
+		justify-content: center;
+	}
+	.search-request {
+		flex: 0 0 85%;
+	}
+	.btn-search {
+		flex: 0 0 15%;
 	}
 }
-
-
 @media(max-width: 991px) {
 	.search-request {
 		outline: 1px solid #b68e53;
