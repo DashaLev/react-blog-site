@@ -1,18 +1,16 @@
 import React from 'react'
 
-import SliderBlock from './SliderBlock/SliderBlock'
-import ContentBlock from './ContentBlock/ContentBlock'
-import InstagramBlock from './InstagramBlock/InstagramBlock'
-
-
+import {Route} from 'react-router'
+import AboutPage from './AboutPage/AboutPage'
+import MainPage from './MainPage/MainPage'
 
 const Main = () => {
     return (
-        <main className="main">
-            <SliderBlock/>
-            <ContentBlock/>
-            <InstagramBlock/>
-        </main>
+        <>
+            <Route path="/" exact component={MainPage}/>
+            <Route path="/about" component={AboutPage}/>
+
+        </>
     )
 }
 

@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import "./menu.css"
+import { Link } from 'react-router-dom'
 
 class Menu extends Component {
 
@@ -27,7 +28,7 @@ class Menu extends Component {
                 <ul className={this.state.mainMenu}>
                     <button className="close-mob-menu"
                     onClick={() => this.closeMenu()}>x</button>
-                    <li><a href="">HOME</a></li>
+                    <li><a href="/">HOME</a></li>
                     <li className="arrow"><a href="">CATEGORIES</a>
                         <ul className="submenu">
                             <li><a href="">TRAVEL</a></li>
@@ -39,7 +40,7 @@ class Menu extends Component {
                         </ul>
                     </li>
                     <li><a href="">BLOG</a></li>
-                    <li><a href="">ABOUT</a></li>
+                    <li><Link to="/about">ABOUT</Link></li>
                     <li><a href="">CONTACT</a></li>
                 </ul>
                 <div className={this.state.mobMenu}
