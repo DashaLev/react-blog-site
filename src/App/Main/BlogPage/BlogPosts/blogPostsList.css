@@ -1,0 +1,18 @@
+.blog-posts-list {
+	grid-area: posts-list;
+	display: grid;
+	row-gap: 30px;
+	justify-items: center;
+}
+
+@media(min-width: 992px) {
+	
+	.blog-posts-list {
+		grid-template-columns: 1fr 1fr;
+    	column-gap: 10px;
+		grid-template-areas:
+			"post-item post-item" 
+			"post-item post-item" 
+		;
+	}
+}

@@ -1,0 +1,34 @@
+.static-picture {
+	position: sticky;
+	top:70px;
+}
+.static-picture>img {
+	width: 100%;
+	max-height: 450px;
+}
+
+.contact-row {
+	display: grid;
+	grid-template-columns:1fr;
+	grid-gap: 60px;
+	justify-items: center;
+}
+
+.contacts-title {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	justify-self: center;
+	padding-top: 60px;
+}
+.contacts-title:before {
+    content: "—";
+    color: #b68e53;
+    padding-right: 20px;
+}
+.contacts-title:after {
+    content: "—";
+    color: #b68e53;
+    padding-left: 20px;
+}
+

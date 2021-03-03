@@ -39,9 +39,9 @@ class Menu extends Component {
                             <li><a href="">PHOTOGRAPHY</a></li>
                         </ul>
                     </li>
-                    <li><a href="">BLOG</a></li>
+                    <li><Link to="/blog">BLOG</Link></li>
                     <li><Link to="/about">ABOUT</Link></li>
-                    <li><a href="">CONTACT</a></li>
+                    <li><Link to="/contact">CONTACT</Link></li>
                 </ul>
                 <div className={this.state.mobMenu}
                      onClick={() => this.openMenu()}>
