@@ -1,5 +1,6 @@
 import React from 'react'
 
+import { Link } from 'react-router-dom'
 import  './categoriesSection.css'
 
 
@@ -9,28 +10,28 @@ const CategoriseSection = () => {
         <div className="title-block">CATEGORIES</div>
         <ul className="categories-list">
             <li>
-                <a href="">TRAVEL</a>
+                <Link to="/travel">TRAVEL</Link>
                 <div className="travel-posts-number">2</div>
             </li>
             <li>
-                <a href="">FASHION</a>
-                <div className="fasion-posts-number">2</div>
+                <Link to="/fashion">FASHION</Link>
+                <div className="fasion-posts-number">1</div>
             </li>
             <li>
-                <a href="">LIFESTYLE</a>
+                <Link to="/lifestyle">LIFESTYLE</Link>
                 <div className="lifestyle-posts-number">3</div>
             </li>
             <li>
-                <a href="">FOOD</a>
-                <div className="food-posts-number">4</div>
+                <Link to="/food">FOOD</Link>
+                <div className="food-posts-number">2</div>
             </li>
             <li>
-                <a href="">INSPIRATION</a>
-                <div className="inspiration-posts-number">4</div>
+                <Link to="/inspiration">INSPIRATION</Link>
+                <div className="inspiration-posts-number">2</div>
             </li>
             <li>
-                <a href="">PHOTOGRAPHY</a>
-                <div className="numb-photography-posts-number">1</div>
+                <Link to="/photography">PHOTOGRAPHY</Link>
+                <div className="numb-photography-posts-number">2</div>
             </li>
         </ul>
     </div>

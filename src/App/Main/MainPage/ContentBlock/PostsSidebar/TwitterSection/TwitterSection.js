@@ -13,7 +13,7 @@ class TwitterSection extends Component {
         return (
             <div className="twitter-section">
                 <div className="title-block">TWITTER</div>
-                <Carousel autoPlay={true} interval={7000} infiniteLoop={true}>
+                <Carousel showThumbs={false} autoPlay={true} interval={7000} infiniteLoop={true}>
                     { 
                         twitterPosts.map(({
                             id,

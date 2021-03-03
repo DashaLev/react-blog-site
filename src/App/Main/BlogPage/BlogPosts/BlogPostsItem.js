@@ -15,25 +15,33 @@ class BlogPostsItem extends Component {
         } = this.props;
 
         return (
-            <div className="blog-post-item">
-                <div className="blog-post-photo">
-                    <img src={image} alt=""/>
-                </div>
-                <div className="blog-post-description">
-                    <div className="blog-post-header">
-                        <div className="blog-post-info">
-                            <div className="blog-post-date">{date}</div>
-                            <div className="blog-post-category">{category}</div>
-                            <div className="blog-post-author">by{author}</div>
-                        </div>
-                        <div className="blog-post-title">{title}</div>
+            <>
+            {/* { this.props.category === "TRAVEL" && */}
+            
+                <div className="blog-post-item">
+                    <div className="blog-post-photo">
+                        <img src={image} alt=""/>
                     </div>
-                    <a href="" className="blog-link-read-more">Read More</a>
+                    <div className="blog-post-description">
+                        <div className="blog-post-header">
+                            <div className="blog-post-info">
+                                <div className="blog-post-date">{date}</div>
+                                <div className="blog-post-category">{category}</div>
+                                <div className="blog-post-author">by{author}</div>
+                            </div>
+                            <div className="blog-post-title">{title}</div>
+                        </div>
+                        <a href="" className="blog-link-read-more">Read More</a>
+                    </div>
                 </div>
-            </div>
+              
+            {/* } */}
+
+            </>
         )
     } 
 }
+
 
 
 BlogPostsItem.propTypes = {

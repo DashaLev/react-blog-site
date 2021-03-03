@@ -20,7 +20,7 @@ const ContactPage = () => {
             <main className="main">
                 <div className="container">
                     <div className="blog-row">
-                        <div class="blog-title">LATEST BLOG POSTS</div>
+                        <div className="blog-title">LATEST BLOG POSTS</div>
                         <BlogPostsList/>
                         <div className="blog-page-sidebar">
                             <CategoriseSection/>

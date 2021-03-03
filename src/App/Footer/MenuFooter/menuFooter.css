@@ -6,6 +6,7 @@
 }
 .menu-footer>li {
 	margin:10px 15px;
+	position: relative;
 }
 .menu-footer>li>a {
 	display: block;
@@ -16,4 +17,38 @@
 }
 .menu-footer>li:hover a {
 	color:#b08247;
+}
+.menu-footer>li:hover>.submenu-footer {
+    display: block;
+}
+.submenu-footer {
+    display: none;
+    position: absolute;
+	bottom: 15px;
+  	left: -20px;
+    padding: 0 10px;
+    background-color: white;
+    z-index: 20;
+  	text-align: center;
+}
+.submenu-footer>li {
+  	margin: 15px 0;
+}
+.submenu-footer>li>a {
+  	display: block;
+    text-decoration: none;
+    color: black;
+}
+.submenu-footer>li:hover a {
+    color:grey;
+}
+.arrow-footer {
+	padding-right: 15px;
+	background-image:url(grey_arrow.png);
+	background-repeat: no-repeat;
+	background-position-y: 47%;
+	background-position-x: 100%;
+}
+.menu-footer>.arrow-footer:hover  {
+	background-image:url(gold_arrow_up.png);
 }

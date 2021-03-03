@@ -1,14 +1,13 @@
 import React from 'react'
 
-import './blogPostsList.css'
-import BlogPostsItem from './BlogPostsItem'
-import  blogPosts from './blogPosts'
+import TravelPostItem from './TravelPostItem'
+import blogPosts from '../../BlogPage/BlogPosts/blogPosts'
+import '../../CategoryPages/categoryPages.css'
 
-const BlogPostsList = () => {
-
+const TravelPostsList = () => {
     return (
-        <div className="blog-posts-list">
-            { 
+        <div className="categ-posts-list">
+            {
                 blogPosts.map(({
                     id,
                     image,
@@ -16,24 +15,23 @@ const BlogPostsList = () => {
                     category,
                     author,
                     title,
+                    text,
                 }) => (
-                    <BlogPostsItem 
+                    <TravelPostItem 
                         key={id}
                         image={image}
                         date={date}
                         category={category}
                         author={author}
                         title={title}
-                        
+                        text={text}
                     />
-                    
                 ))
-                
-            }
-            
+
+                }
         </div>
     )
 }
 
 
-export default BlogPostsList
+export default TravelPostsList

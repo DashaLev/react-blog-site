@@ -12,7 +12,7 @@ class SliderBlock extends Component {
 
         return (
             <div className="slider-block">
-                <Carousel autoPlay={true} interval={5000} infiniteLoop={true}>
+                <Carousel  showThumbs={false} autoPlay={true} interval={5000} infiniteLoop={true}>
                     { 
                         sliderPosts.map(({
                             id,

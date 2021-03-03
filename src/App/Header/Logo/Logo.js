@@ -8,8 +8,8 @@ import './logo.css'
 const Logo = () => {
     return (
         <div className="logo">
-            <img src={logo} alt="logo" class="hide-xs"/>
-            <img src={logo_m} alt="logo" class="hide-md"/>
+            <img src={logo} alt="logo" className="hide-xs"/>
+            <img src={logo_m} alt="logo" className="hide-md"/>
         </div>        
     )
 }

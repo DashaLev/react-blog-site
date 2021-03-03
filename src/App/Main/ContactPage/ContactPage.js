@@ -16,7 +16,7 @@ const ContactPage = () => {
             <main className="main">
                 <div className="container">
                     <div className="contact-row">
-                        <div class="contacts-title">CONTACT</div>
+                        <div className="contacts-title">CONTACT</div>
                             <ContactText/>
                             <ContactForm/>
                     </div>

@@ -29,14 +29,14 @@ class Menu extends Component {
                     <button className="close-mob-menu"
                     onClick={() => this.closeMenu()}>x</button>
                     <li><a href="/">HOME</a></li>
-                    <li className="arrow"><a href="">CATEGORIES</a>
+                    <li className="arrow"><a>CATEGORIES</a>
                         <ul className="submenu">
-                            <li><a href="">TRAVEL</a></li>
-                            <li><a href="">FASHION</a></li>
-                            <li><a href="">LIFESTYLE</a></li>
-                            <li><a href="">FOOD</a></li>
-                            <li><a href="">INSPIRATION</a></li>
-                            <li><a href="">PHOTOGRAPHY</a></li>
+                            <li><Link to="/travel">TRAVEL</Link></li>
+                            <li><Link to="/fashion">FASHION</Link></li>
+                            <li><Link to="/lifestyle">LIFESTYLE</Link></li>
+                            <li><Link to="/food">FOOD</Link></li>
+                            <li><Link to="/inspiration">INSPIRATION</Link></li>
+                            <li><Link to="/photography">PHOTOGRAPHY</Link></li>
                         </ul>
                     </li>
                     <li><Link to="/blog">BLOG</Link></li>
