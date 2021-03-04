@@ -8,7 +8,7 @@ import InspirationPostsList from './InspirationPostsList'
 const InspirationPage = () => {
     return (
         <>
-            <div className="static-picture">
+            <div className="sticky-picture">
                 <img src={inspiration} alt=""/>
             </div>
             <main className="main">

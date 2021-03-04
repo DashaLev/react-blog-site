@@ -6,15 +6,7 @@
 .about-row .about-author:first-child {
 	padding-top: 60px;
 }
-.static-picture {
-	position: sticky;
-	top:90px;
-	z-index: -20;
-}
-.static-picture>img {
-	width: 100%;
-	max-height: 450px;
-}
+
 
 
 

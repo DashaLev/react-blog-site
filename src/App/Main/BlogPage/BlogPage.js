@@ -14,7 +14,7 @@ import './blogPage.css'
 const ContactPage = () => {
     return (
         <>
-            <div className="static-picture">
+            <div className="sticky-picture">
                 <img src={blog} alt=""/>
             </div>
             <main className="main">

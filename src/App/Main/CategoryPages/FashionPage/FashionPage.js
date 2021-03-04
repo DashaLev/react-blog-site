@@ -8,7 +8,7 @@ import FashionPostsList from './FashionPostsList'
 const FashionPage = () => {
     return (
         <>
-            <div className="static-picture">
+            <div className="sticky-picture">
                 <img src={fashion} alt=""/>
             </div>
             <main className="main">

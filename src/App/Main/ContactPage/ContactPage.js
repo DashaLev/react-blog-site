@@ -10,7 +10,7 @@ import ContactForm from './ContactForm/ContactForm'
 const ContactPage = () => {
     return (
         <>
-            <div className="static-picture">
+            <div className="sticky-picture">
                 <img src={contactbg} alt=""/>
             </div>
             <main className="main">

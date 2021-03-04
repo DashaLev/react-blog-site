@@ -8,7 +8,7 @@ import PhotographyPostsList from './PhotographyPostsList'
 const PhotographyPage = () => {
     return (
         <>
-            <div className="static-picture">
+            <div className="sticky-picture">
                 <img src={photography} alt=""/>
             </div>
             <main className="main">

@@ -8,7 +8,7 @@ import TravelPostsList from './TravelPostsList'
 const TravelPage = () => {
     return (
         <>
-            <div className="static-picture">
+            <div className="sticky-picture">
                 <img src={travel} alt=""/>
             </div>
             <main className="main">

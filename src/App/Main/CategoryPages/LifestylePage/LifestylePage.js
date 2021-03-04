@@ -8,7 +8,7 @@ import LifestylePostsList from './LifestylePostsList'
 const LifestylePage = () => {
     return (
         <>
-            <div className="static-picture">
+            <div className="sticky-picture">
                 <img src={lifestyle} alt=""/>
             </div>
             <main className="main">

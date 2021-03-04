@@ -1,13 +1,14 @@
 import React from 'react'
+
 import about from './about.jpg'
-import AuthorList from './AuthorList'
+import AuthorList from './AuthorInfo/AuthorList'
 
 import './aboutPage.css'
 
 const AboutPage = () => {
     return (
         <>
-            <div className="static-picture">
+            <div className="sticky-picture">
                 <img src={about} alt=""/>
             </div>
             <main className="main">
