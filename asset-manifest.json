@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-blog-pr/static/css/main.1194e8d2.chunk.css",
-    "main.js": "/react-blog-pr/static/js/main.7ebef34d.chunk.js",
-    "main.js.map": "/react-blog-pr/static/js/main.7ebef34d.chunk.js.map",
+    "main.css": "/react-blog-pr/static/css/main.48a0658a.chunk.css",
+    "main.js": "/react-blog-pr/static/js/main.b7c42056.chunk.js",
+    "main.js.map": "/react-blog-pr/static/js/main.b7c42056.chunk.js.map",
     "runtime-main.js": "/react-blog-pr/static/js/runtime-main.9be05a74.js",
     "runtime-main.js.map": "/react-blog-pr/static/js/runtime-main.9be05a74.js.map",
-    "static/css/2.b6830ce1.chunk.css": "/react-blog-pr/static/css/2.b6830ce1.chunk.css",
-    "static/js/2.7f68f725.chunk.js": "/react-blog-pr/static/js/2.7f68f725.chunk.js",
-    "static/js/2.7f68f725.chunk.js.map": "/react-blog-pr/static/js/2.7f68f725.chunk.js.map",
+    "static/css/2.2c15cd73.chunk.css": "/react-blog-pr/static/css/2.2c15cd73.chunk.css",
+    "static/js/2.36368cdd.chunk.js": "/react-blog-pr/static/js/2.36368cdd.chunk.js",
+    "static/js/2.36368cdd.chunk.js.map": "/react-blog-pr/static/js/2.36368cdd.chunk.js.map",
     "index.html": "/react-blog-pr/index.html",
-    "static/css/2.b6830ce1.chunk.css.map": "/react-blog-pr/static/css/2.b6830ce1.chunk.css.map",
-    "static/css/main.1194e8d2.chunk.css.map": "/react-blog-pr/static/css/main.1194e8d2.chunk.css.map",
-    "static/js/2.7f68f725.chunk.js.LICENSE.txt": "/react-blog-pr/static/js/2.7f68f725.chunk.js.LICENSE.txt",
+    "static/css/2.2c15cd73.chunk.css.map": "/react-blog-pr/static/css/2.2c15cd73.chunk.css.map",
+    "static/css/main.48a0658a.chunk.css.map": "/react-blog-pr/static/css/main.48a0658a.chunk.css.map",
+    "static/js/2.36368cdd.chunk.js.LICENSE.txt": "/react-blog-pr/static/js/2.36368cdd.chunk.js.LICENSE.txt",
     "static/media/about.e078adff.jpg": "/react-blog-pr/static/media/about.e078adff.jpg",
     "static/media/blog.49bfc17a.jpg": "/react-blog-pr/static/media/blog.49bfc17a.jpg",
     "static/media/contacts.2e94c6c0.png": "/react-blog-pr/static/media/contacts.2e94c6c0.png",
@@ -20,9 +20,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9be05a74.js",
-    "static/css/2.b6830ce1.chunk.css",
-    "static/js/2.7f68f725.chunk.js",
-    "static/css/main.1194e8d2.chunk.css",
-    "static/js/main.7ebef34d.chunk.js"
+    "static/css/2.2c15cd73.chunk.css",
+    "static/js/2.36368cdd.chunk.js",
+    "static/css/main.48a0658a.chunk.css",
+    "static/js/main.b7c42056.chunk.js"
   ]
 }
