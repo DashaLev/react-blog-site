@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/react-blog-pr/static/css/main.e32c9ace.chunk.css",
-    "main.js": "/react-blog-pr/static/js/main.7413d1cb.chunk.js",
-    "main.js.map": "/react-blog-pr/static/js/main.7413d1cb.chunk.js.map",
-    "runtime-main.js": "/react-blog-pr/static/js/runtime-main.9be05a74.js",
-    "runtime-main.js.map": "/react-blog-pr/static/js/runtime-main.9be05a74.js.map",
-    "static/css/2.2c15cd73.chunk.css": "/react-blog-pr/static/css/2.2c15cd73.chunk.css",
-    "static/js/2.8fddbbbb.chunk.js": "/react-blog-pr/static/js/2.8fddbbbb.chunk.js",
-    "static/js/2.8fddbbbb.chunk.js.map": "/react-blog-pr/static/js/2.8fddbbbb.chunk.js.map",
-    "index.html": "/react-blog-pr/index.html",
-    "static/css/2.2c15cd73.chunk.css.map": "/react-blog-pr/static/css/2.2c15cd73.chunk.css.map",
-    "static/css/main.e32c9ace.chunk.css.map": "/react-blog-pr/static/css/main.e32c9ace.chunk.css.map",
-    "static/js/2.8fddbbbb.chunk.js.LICENSE.txt": "/react-blog-pr/static/js/2.8fddbbbb.chunk.js.LICENSE.txt",
-    "static/media/about.e078adff.jpg": "/react-blog-pr/static/media/about.e078adff.jpg",
-    "static/media/blog.49bfc17a.jpg": "/react-blog-pr/static/media/blog.49bfc17a.jpg",
-    "static/media/contacts.2e94c6c0.png": "/react-blog-pr/static/media/contacts.2e94c6c0.png",
-    "static/media/contacts_bg.c2e70474.jpg": "/react-blog-pr/static/media/contacts_bg.c2e70474.jpg",
-    "static/media/logo.d08e4841.png": "/react-blog-pr/static/media/logo.d08e4841.png"
+    "main.css": "/react-blog-site/static/css/main.e32c9ace.chunk.css",
+    "main.js": "/react-blog-site/static/js/main.a64118ee.chunk.js",
+    "main.js.map": "/react-blog-site/static/js/main.a64118ee.chunk.js.map",
+    "runtime-main.js": "/react-blog-site/static/js/runtime-main.dff309f7.js",
+    "runtime-main.js.map": "/react-blog-site/static/js/runtime-main.dff309f7.js.map",
+    "static/css/2.2c15cd73.chunk.css": "/react-blog-site/static/css/2.2c15cd73.chunk.css",
+    "static/js/2.8fddbbbb.chunk.js": "/react-blog-site/static/js/2.8fddbbbb.chunk.js",
+    "static/js/2.8fddbbbb.chunk.js.map": "/react-blog-site/static/js/2.8fddbbbb.chunk.js.map",
+    "index.html": "/react-blog-site/index.html",
+    "static/css/2.2c15cd73.chunk.css.map": "/react-blog-site/static/css/2.2c15cd73.chunk.css.map",
+    "static/css/main.e32c9ace.chunk.css.map": "/react-blog-site/static/css/main.e32c9ace.chunk.css.map",
+    "static/js/2.8fddbbbb.chunk.js.LICENSE.txt": "/react-blog-site/static/js/2.8fddbbbb.chunk.js.LICENSE.txt",
+    "static/media/about.e078adff.jpg": "/react-blog-site/static/media/about.e078adff.jpg",
+    "static/media/blog.49bfc17a.jpg": "/react-blog-site/static/media/blog.49bfc17a.jpg",
+    "static/media/contacts.2e94c6c0.png": "/react-blog-site/static/media/contacts.2e94c6c0.png",
+    "static/media/contacts_bg.c2e70474.jpg": "/react-blog-site/static/media/contacts_bg.c2e70474.jpg",
+    "static/media/logo.d08e4841.png": "/react-blog-site/static/media/logo.d08e4841.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.9be05a74.js",
+    "static/js/runtime-main.dff309f7.js",
     "static/css/2.2c15cd73.chunk.css",
     "static/js/2.8fddbbbb.chunk.js",
     "static/css/main.e32c9ace.chunk.css",
-    "static/js/main.7413d1cb.chunk.js"
+    "static/js/main.a64118ee.chunk.js"
   ]
 }
